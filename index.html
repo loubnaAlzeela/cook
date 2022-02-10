@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+    <meta charset="utf-8"/>
+
+        <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>    
+        <link href="Packages/bootstrap.min.css" rel="stylesheet" />
+        <script src="Packages/jquery-3.3.1.min.js"></script> 
+        <script src="Packages/bootstrap.min.js"></script>    
+        <script src="Packages/popper.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>   
+        <script src="scripts/slick.js"></script>
+    
+        <script src="scripts/active.js"></script>
+        <link href="CSS/slick.css" rel="stylesheet" />
+        <link href="CSS/slick-theme.css" rel="stylesheet" />
+        <script src="scripts/JavaScript.js"></script>
+        <link href="CSS/MyStyle.css" rel="stylesheet" />
+    </head>
+    <body>
+<!--start nav Section-->
+    <nav  class="navbar  navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand navbar-brand-color" href="#"><img src="images/chef.png" alt="logo"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarRes">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse " id="navBarRes">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Recipes </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#Recent">Recent</a>
+                      <a class="dropdown-item" href="#Brakefast">Brakefast</a>
+                      <a class="dropdown-item" href="#Lunch">Lunch</a>
+                      <a class="dropdown-item" href="#Dinner">Dinner</a>
+                      <a class="dropdown-item" href="#Dessert">Dessert</a>
+                    </div>
+                  </li>
+                  <li class="nav-item   ">		
+                    <a class="nav-link " href="#about">Heath</a>
+                </li>
+            
+                <li class="nav-item  ">		
+                    <a class="nav-link " href="#about">About us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item ">		
+                    <a class="nav-link " href="#">Login </a>
+                </li>
+                <li class="nav-item  ">		
+                    <a class="nav-link " href="#">Sign up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+ <!--End nav Section-->
+
+ <!--Start Body Section-->
+ <div class="landing">
+	<div class="home-wrap">
+		<div class="home-inner">
+			
+		</div>
+	</div>	
+</div>   
+<div class="caption text-center" >
+	<input type="text" class="input_box">  <br>
+  <button type="button" class="btn btn-outline-light btn-lg"  >Search </button>
+  
+</div>
+  <!--Most shief
+  <div class="shief-area" >
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-sm-12 col-lg-10 ">
+                    <div class="shief-now-form">
+                         <div class="form-group">
+                             <img src="images/shief1.jpg" >
+                         </div>
+                         <div class="form-group">
+                             <img src="images/shief1.jpg">
+                         </div>
+                         <div class="form-group">
+                             <img src="images/shief1.jpg" class="shief-now-form" >
+                         </div>
+                         <div class="form-group">
+                             <img src="images/shief1.jpg" class="shief-now-form">
+                         </div>
+                         <div class="form-group">
+                             <img src="images/shief1.jpg" class="shief-now-form">
+                         </div>                                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+  <!--End Most sheif-->
+
+  <!--meals section start-->
+
+  <aside class = "left_side">
+   <ul class="ul_list list-group list-group-flush ">
+       <li class=" list-group-item  active"><a href="#Recent">Recent</a></li>
+       <li class=" list-group-item"><a href="#Brakefast" >Brakefast</a></li>
+       <li class=" list-group-item"><a href="#Lunch">Lunch</a></li>
+       <li class=" list-group-item"><a href="#Dinner">Dinner</a></li>
+       <li class=" list-group-item"><a href="#Dessert">Dessert</a></li>
+   </ul>
+    <div class="soial">
+        <div class="s ">
+            <a href="http://www.facebook.com"><i class="fa fa-2x fa-facebook"></i><p class="f">Facebook</p></a>
+        </div>
+        <div class="s">
+            <a href="http://www.twitter.com"><i class="fa fa-2x fa-twitter"></i><p>Twitter</p></a>
+        </div>
+        <div class="s">
+            <a href="http://www.twitter.com"><i class="fa fa-2x fa-instagram"></i><p>Instagram</p></a>
+        </div>
+        <div class="s">
+            <a href="http://www.twitter.com"><i class="fa fa-2x fa-youtube"></i><p >Youtube</p></a>
+        </div>
+        
+     
+     
+     
+     
+     
+        
+    </div>
+        <script>
+            $("li").click(
+            function(event) {
+            $('li').removeClass('active');
+            $(this).addClass('active');
+         });
+        </script>         
+  </aside>
+<section class = "right ">
+         <div class="row " id="Recent" >
+        <div class="col-sm-12">
+                <h2 class="mb-2 text-Left">Recent</h2>               
+            <div class="regular slider mt-2">
+            <div class="slick_div ">
+                <div class="cols">
+			        <div class="col" >
+				        <div class="container">
+					        <div class="front" style="background-image: url(images/b2.JPG)">
+						    <div class="inner"></div>
+					    </div>
+					    <div class="back" >
+						  <div class="inner" onclick="opendetails()">
+						        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+						    </div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+        <div class="slick_div">
+            <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/l1.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          
+          
+        </div>
+        <div class="slick_div">
+            <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/l5.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         
+         
+        </div>
+        <div class="slick_div">
+            <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/de1.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          
+        
+        
+        </div>
+        <div class="slick_div">
+            <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/de4.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                         <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          
+          
+        </div>
+        <div class="slick_div">
+            <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/b4.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                         <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+          
+          
+        </div>
+      </div>
+    </div>
+         </div>
+
+         <div class="row" id="Brakefast">
+     <div class="col-sm-12">
+            <h2 class="mb-2 text-Left">Brakefast</h2>     
+                  
+    <div class="regular slider mt-2">
+        <div class="slick_div ">
+            <div class="cols">
+             <div class="col" >
+                 <div class="container">
+                     <div class="front" style="background-image: url(images/b1.JPG)">
+                         <div class="inner">
+                         </div>
+                     </div>
+                     <div class="back">
+                        <div class="inner" onclick="opendetails()">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                         </div>
+                     </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+          <div class="slick_div">
+              <div class="cols">
+                  <div class="col" >
+                      <div class="container">
+                          <div class="front" style="background-image: url(images/b2.JPG)">
+                              <div class="inner">
+                              </div>
+                          </div>
+                           <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+            
+            
+          </div>
+          <div class="slick_div">
+              <div class="cols">
+                  <div class="col" >
+                      <div class="container">
+                          <div class="front" style="background-image: url(images/b3.JPG)">
+                              <div class="inner">
+                              </div>
+                          </div>
+                          <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+           
+           
+          </div>
+          <div class="slick_div">
+              <div class="cols">
+                  <div class="col" >
+                      <div class="container">
+                          <div class="front" style="background-image: url(images/b4.JPG)">
+                              <div class="inner">
+                              </div>
+                          </div>
+                          <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+            
+          
+          
+          </div>
+          <div class="slick_div">
+              <div class="cols">
+                  <div class="col" >
+                      <div class="container">
+                          <div class="front" style="background-image: url(images/b5.JPG)">
+                              <div class="inner">
+                              </div>
+                          </div>
+                          <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+            
+            
+          </div>
+          <div class="slick_div">
+              <div class="cols">
+                  <div class="col" >
+                      <div class="container">
+                          <div class="front" style="background-image: url(images/b2.JPG)">
+                              <div class="inner">
+                              </div>
+                          </div>
+                          <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+               </div>
+            
+            
+          </div>
+        </div>
+      </div>
+          </div>
+      <div class="row" id="Lunch">
+        <div class="col-sm-12">
+               <h2 class="mb-2 text-Left">Lunch</h2>     
+                     
+       <div class="regular slider mt-2">
+           <div class="slick_div ">
+               <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/l1.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+             <div class="slick_div">
+                 <div class="cols">
+                     <div class="col" >
+                         <div class="container">
+                             <div class="front" style="background-image: url(images/l2.JPG)">
+                                 <div class="inner">
+                                 </div>
+                             </div>
+                             <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                  </div>
+               
+               
+             </div>
+             <div class="slick_div">
+                 <div class="cols">
+                     <div class="col" >
+                         <div class="container">
+                             <div class="front" style="background-image: url(images/l3.JPG)">
+                                 <div class="inner">
+                                 </div>
+                             </div>
+                             <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                  </div>
+              
+              
+             </div>
+             <div class="slick_div">
+                 <div class="cols">
+                     <div class="col" >
+                         <div class="container">
+                             <div class="front" style="background-image: url(images/l4.JPG)">
+                                 <div class="inner">
+                                 </div>
+                             </div>
+                             <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                  </div>
+               
+             
+             
+             </div>
+             <div class="slick_div">
+                 <div class="cols">
+                     <div class="col" >
+                         <div class="container">
+                             <div class="front" style="background-image: url(images/l2.JPG)">
+                                 <div class="inner">
+                                 </div>
+                             </div>
+                             <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                  </div>
+               
+               
+             </div>
+             <div class="slick_div">
+                 <div class="cols">
+                     <div class="col" >
+                         <div class="container">
+                             <div class="front" style="background-image: url(images/b2.JPG)">
+                                 <div class="inner">
+                                 </div>
+                             </div>
+                             <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                  </div>
+               
+               
+             </div>
+           </div>
+         </div>
+         </div>
+
+         <div class="row" id="Dinner">
+            <div class="col-sm-12">
+            <h2 class="mb-2 text-Left">Dinner</h2>               
+        <div class="regular slider mt-2">
+        <div class="slick_div ">
+              <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/b2.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/l5.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/l4.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+             
+             
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/b3.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+            
+            
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/b1.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/b4.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row" id="Dessert">
+            <div class="col-sm-12">
+            <h2 class="mb-2 text-Left">Dessert</h2>               
+        <div class="regular slider mt-2">
+        <div class="slick_div ">
+              <div class="cols">
+                <div class="col" >
+                    <div class="container">
+                        <div class="front" style="background-image: url(images/de1.JPG)">
+                            <div class="inner">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner" onclick="opendetails()">
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/de2.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/de3.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+             
+             
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/de4.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+            
+            
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/de5.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+            <div class="slick_div">
+                <div class="cols">
+                    <div class="col" >
+                        <div class="container">
+                            <div class="front" style="background-image: url(images/de3.JPG)">
+                                <div class="inner">
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner" onclick="opendetails()">
+                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+              
+              
+            </div>
+          </div>
+        </div>
+        </div>
+
+</section>
+  <!--meals section end-->
+<!-- Footer Section-->
+<footer>
+	<div id ="about" class="offset">
+    
+        <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div >
+                   <h3 class="Blod">Links</h3>
+                   <p class="ab-p">Main<br/>
+                      Content<br/>
+                       Login <br/>
+                      Sign up<br/>
+    
+                   </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div >
+                   <h3 class="Blod">Site</h3>
+                   <p class="ab-p">About us<br/>
+                      payments<br/>
+                     Privacy policy<br/>
+                       Terms of using<br/></p>
+                        </div>
+                        
+                </div>
+            <div class="col-md-4 col-sm-12">
+                        <div >
+                    <h3 class="Blod">Calls us</h3>
+                    <p class="ab-p">E:anything@dd.com<br/>
+                       +42 737-828-372</p>
+                  <div class="wrapper">
+                     <a href="http://www.google.com"><i class="fa fa-3x fa-google-plus"></i></a>
+                     <a href="http://www.facebook.com"><i class="fa fa-3x fa-facebook-square"></i></a>
+                     <a href="http://www.twitter.com"><i class="fa fa-3x fa-twitter-square"></i></a>
+                  </div>
+    
+              </div>
+                    </div>
+          </div>
+      
+    </div>
+	
+	
+	
+	
+</footer>
+<!-- Footer Section End-->
+<!--End Body Section-->
+<script>
+    $(".regular").slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    arrows: true,
+    prevArrow: "<img class='a-left control-c prev slick-prev ' src='images/arrow-left.png'> ",
+    nextArrow: "<img class='a-right control-c next slick-next' src='images/arrow-right.png'>",
+    responsive: [
+    {
+    breakpoint: 1024,
+    settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+    }
+    },
+    {
+    breakpoint: 600,
+    settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+    }
+    },
+    {
+    breakpoint: 480,
+    settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+    }
+}
+]
+});
+window.sr=ScrollReveal();
+ sr.reveal('.slick_div',{
+  duration: 2000,
+  origin:'top',
+  distance: '10px'
+  });    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+</script>
+    </body>
+</html>
