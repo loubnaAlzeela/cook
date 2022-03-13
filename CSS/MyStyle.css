@@ -61,7 +61,7 @@ nav a {
 }
 
 .home-inner {
-    background:  url('../images/Spaghetti.JPG');
+   background: rgba(0, 0, 0, .60) url('../images/Spaghetti.JPG');
     position: fixed;
     display: table;
     top: 0;
