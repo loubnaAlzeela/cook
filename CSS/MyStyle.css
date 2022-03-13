@@ -4,8 +4,9 @@
 
 @-o-viewport { width: 320px; zoom: 0.5; }‎
 body {
-    overflow: hidden;
-
+    overflow-x: hidden;
+    margin:0;
+	padding:0;
 
 }
 
