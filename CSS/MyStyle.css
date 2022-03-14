@@ -3,7 +3,11 @@
 
 
 @-o-viewport { width: 320px; zoom: 0.5; }‎
-body {
+*{
+margin:0;
+padding:0;
+}
+body, html {
     overflow-x: hidden;
     margin:0;
 	padding:0;
@@ -89,10 +93,10 @@ nav a {
     transform: translateZ(0);
     will-change: transform;
 }
-/*.home-inner.home-inner_scroll{
+.home-inner.home-inner_scroll{
     height: 73%;
     position: relative;
-}*/
+}
 .caption {
     width: 100%;
     max-width: 80%;
